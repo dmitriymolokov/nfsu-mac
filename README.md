@@ -19,6 +19,14 @@ Tested on an M1: menu, garage, and races at 1440×900 with the in-game graphics 
 
 The first launch unpacks Wine into `~/Library/Application Support/NFSUnderground/` and creates a prefix. Later launches reuse it.
 
+If macOS refuses to open the app and keeps it in quarantine, clear the flag in Terminal:
+
+```
+xattr -dr com.apple.quarantine "/path/to/NFS Underground.app"
+```
+
+Replace `/path/to/` with the folder where you unzipped the app.
+
 Resolutions are 16:10: 1024×640, 1280×800, 1440×900, 1680×1050, 1920×1200. Default is 1440×900.
 
 Do not drop your own `d3d9.dll` into the game folder. It would replace the built-in mtld3d.
