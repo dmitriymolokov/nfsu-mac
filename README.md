@@ -13,12 +13,8 @@ Tested on an M1: menu, garage, and races at 1440×900 with the in-game graphics 
 ## Play
 
 1. Install your own US 1.4 game.
-2. Put the unpatched no-cd `Speed.exe` in the install folder. The launcher accepts only this file:
-
-   `e159b0eaaad6c02aafa956fbd306d33441e23caf47e1d12a98acce486756c621`
-
-   Size is about 3.2 MB. A disc `Speed.exe` that still expects SafeDisc, and an already patched exe, are both refused.
-3. Unzip the download and put `NFS Underground.app` next to that `Speed.exe`.
+2. Put this unpatched no-cd [Speed.exe](https://drive.google.com/file/d/1uyobKyV3d4v-IZdqWik-YrlgGKQ2Juw7/view?usp=sharing) in your folder game. Replace original Speed.exe
+3. Download and unzip `NFS Underground.app` next to that `Speed.exe`. 
 4. Open the app, pick a resolution and a language, press Play. Only the English version has in-game movies.
 
 The first launch unpacks Wine into `~/Library/Application Support/NFSUnderground/` and creates a prefix. Later launches reuse it.
