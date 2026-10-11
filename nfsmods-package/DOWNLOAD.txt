@@ -1,0 +1,9 @@
+App (about 226 MB):
+
+https://github.com/dmitriymolokov/nfsu-mac/releases
+
+Notes:
+
+https://github.com/dmitriymolokov/nfsu-mac
+
+Read README.txt in this folder for installation steps.
